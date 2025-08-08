@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #0a1a4f, #1a2e70);
+    padding: 15px;
+    color: gold;
+    text-align: center;
+}
+
+.logo {
+    max-height: 60px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0a1a4f;
+    color: gold;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a2e70;
+}
+

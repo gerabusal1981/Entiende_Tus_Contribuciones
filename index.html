@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entiende tus Contribuciones</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="icons/logo.png" alt="Logo" class="logo">
+        <h1>Entiende tus Contribuciones</h1>
+    </header>
+
+    <main>
+        <form id="contribucionesForm">
+            <label>Nombre y Apellido</label>
+            <input type="text" name="nombre">
+
+            <label>Fono</label>
+            <input type="tel" name="fono">
+
+            <label>Superficie del Inmueble (m²)</label>
+            <input type="number" name="superficie_inmueble">
+
+            <label>Superficie de Construcción/es (m²)</label>
+            <input type="number" name="superficie_construccion">
+
+            <label>Material de Construcción</label>
+            <input type="text" name="material">
+
+            <label>Región</label>
+            <input type="text" name="region">
+
+            <label>Comuna</label>
+            <input type="text" name="comuna">
+
+            <label>Localidad</label>
+            <input type="text" name="localidad">
+
+            <label>Correo electrónico de respuesta *</label>
+            <input type="email" name="email" required>
+
+            <label>Certificado de Avalúo Detallado (PDF, mínimo 2 páginas) *</label>
+            <input type="file" name="certificado" id="certificado" accept="application/pdf" required>
+
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
